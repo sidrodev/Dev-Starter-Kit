@@ -1,3 +1,5 @@
+import './components/FirstComp';
+
 if (navigator.serviceWorker) {
 	navigator.serviceWorker
 		.register('/sw.js')
